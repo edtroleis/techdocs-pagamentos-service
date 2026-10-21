@@ -14,5 +14,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: platform-team
+  owner: squad-checkout
   system: demo-system
