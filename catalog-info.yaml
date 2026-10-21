@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pagamentos-service
+  title: Pagamentos Service
+  description: Autoriza e registra pagamentos dos pedidos
+  tags: [python, fastapi]
+  annotations:
+    github.com/project-slug: edtroleis/techdocs-pagamentos-service
+  links:
+    - url: https://github.com/edtroleis/techdocs-pagamentos-service
+      title: Repositório
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: platform-team
+  system: demo-system
